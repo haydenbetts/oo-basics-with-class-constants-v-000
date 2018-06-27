@@ -11,7 +11,7 @@ class Book
   # i think we make a custom genre writer that
   def genre=(genre)
     @genre = genre
-    << # add it to the class constant
+    GENRES << genre
   end
 
   def turn_page
