@@ -8,7 +8,6 @@ class Book
     @title = title
   end
 
-  # i think we make a custom genre writer that
   def genre=(genre)
     @genre = genre
     GENRES << genre
